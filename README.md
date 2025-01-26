@@ -1,5 +1,11 @@
-# Vue 3 + Vite
+## 访客端
+这个是近期做好的，也比较清晰，但是具体做法和管理端并没有太大的区别，而且更简单
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### 内容
+博客 分类专栏 专题 成员 留言板
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support)ha.
+### 结构
+和管理端并没有太大的区别
+components组件包括 博客样式组件 专栏详情组件 用户样式组件等  
+views里存放主界面博客 博客详情 专栏 专栏详情  主界面 留言板 专题 用户信息（具体界面）
+
